@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
+import counterReducer from "./features/counter/counterSlice";
 
-const store = configureStore({
+export const store = configureStore({
   reducer: {
-    posts: () => console.log('hello'),
-    comments: () => console.log('hello'),
-    userts: () => console.log('hello'),
+    posts: () => null,
+    comments: () => null,
+    userts: () => null,
+    counter: counterReducer
 
   },
 })

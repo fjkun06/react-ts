@@ -10,6 +10,7 @@ import NPChild from "./NPChild";
 import MouseMove from "./MouseMove";
 import GenericHOC from "./GenericHOC";
 import GenereicHocTester from "./GenereicHocTester";
+import { Counter } from "./features/counter/Counter";
 
 function App() {
   type cnt = number;
@@ -48,6 +49,8 @@ function App() {
           )}
         />
       <Generical name={"fjkun06"} age={21} city={"buea".toUpperCase()} initialCount={10}/>
+      <br/>
+      <Counter/>
       </header>
     </div>
   );
