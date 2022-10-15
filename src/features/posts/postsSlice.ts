@@ -13,7 +13,9 @@ const initialState: Init = [
 const postsSlice = createSlice({
 name: 'posts',
 initialState,
-reducers: {}
+reducers: {
+  
+}
 })
 
 
