@@ -6,8 +6,8 @@ import postsReducer from "../features/posts/postsSlice"
 export const store = configureStore({
   reducer: {
     posts: postsReducer,
-    comments: () => null,
-    userts: () => null,
+    // comments: () => null,
+    // userts: () => null,
     counter: counterReducer,
     counter2: counterReducer2
 
